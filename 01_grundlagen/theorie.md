@@ -72,6 +72,8 @@ Linke Seite = Entwicklung, rechte Seite = Test. Testplanung beginnt **parallel z
 nicht erst danach. Die **Rule of Ten** besagt: Ein Fehler kostet in jeder nächsten Phase
 ca. 10-mal mehr zur Behebung als in der vorherigen.
 
+![V-Modell](../assets/01_v-modell.png)
+
 ---
 
 ## Testprozess: Die 5 Phasen
