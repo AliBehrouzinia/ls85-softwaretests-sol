@@ -1,0 +1,45 @@
+name: 🎯 Klassenfortschritt aktualisieren
+
+# Läuft bei jedem PR, der geöffnet oder geschlossen (merged/abgelehnt) wird.
+# pull_request_target: läuft im Kontext des Teacher-Repos → hat Schreibrechte auf README.md
+on:
+  pull_request_target:
+    types: [opened, closed]
+
+permissions:
+  contents: write
+  pull-requests: read
+
+jobs:
+  update-fortschritt:
+    runs-on: ubuntu-latest
+    if: github.actor != 'dependabot[bot]' && github.actor != 'github-actions[bot]'
+    steps:
+      - name: Repository auschecken (Base-Branch, nicht Fork-Code)
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Anzahl aller PRs ermitteln
+        id: count
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          GESAMT=$(gh pr list --state all --json number --jq 'length')
+          echo "gesamt=$GESAMT" >> $GITHUB_OUTPUT
+          echo "Aktuelle PR-Gesamtanzahl: $GESAMT"
+
+      - name: README.md Fortschrittsbalken aktualisieren
+        run: python3 .github/update_fortschritt.py ${{ steps.count.outputs.gesamt }}
+
+      - name: Änderungen committen und pushen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet README.md; then
+            echo "README.md ist bereits aktuell – kein Commit nötig."
+          else
+            git add README.md
+            git commit -m "[Automatisch] Klassenfortschritt: ${{ steps.count.outputs.gesamt }} / 100 PRs"
+            git push
+          fi
