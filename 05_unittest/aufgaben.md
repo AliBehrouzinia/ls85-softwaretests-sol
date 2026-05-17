@@ -56,6 +56,46 @@ Das `-v` steht für "verbose" – du siehst dann den Namen jedes Tests.
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: Unit-Test lesen und verstehen 🟢
+
+**Einstieg: Tests lesen lernen**
+
+Lies den folgenden Unit-Test und beantworte die Fragen – ohne die Implementierung zu kennen:
+
+```python
+import unittest
+
+class TestBestellsystem(unittest.TestCase):
+
+    def test_rabatt_wird_korrekt_abgezogen(self):
+        bestellung = Bestellsystem()
+        bestellung.artikel_hinzufuegen("Stift", 2.00, 5)
+        bestellung.rabatt_setzen(10)
+        self.assertAlmostEqual(bestellung.gesamtpreis(), 9.00)
+
+    def test_leere_bestellung_hat_preis_null(self):
+        bestellung = Bestellsystem()
+        self.assertEqual(bestellung.gesamtpreis(), 0.0)
+
+    def test_negativer_rabatt_wirft_fehler(self):
+        bestellung = Bestellsystem()
+        with self.assertRaises(ValueError):
+            bestellung.rabatt_setzen(-5)
+```
+
+**a)** Was testet jeder dieser Tests? Beschreibe in je einem Satz.
+
+**b)** Welche Klasse und welche Methoden werden in den Tests verwendet?
+
+**c)** Was bedeutet `assertAlmostEqual` und warum wird es hier statt `assertEqual` verwendet?
+
+**d)** Was passiert, wenn `test_negativer_rabatt_wirft_fehler` fehlschlägt?
+Was wäre dann das Problem in der Implementierung?
+
+Trage deine Antworten in `05_antworten.md` ein.
+
+---
+
 ## Aufgabe 1 – Erste Unit-Tests schreiben 🟡
 
 In `code/starter.py` findest du die Klasse `Kontorechner` – ein vereinfachter Kontostand-Manager.
@@ -143,6 +183,8 @@ Person A: Implementiert eine Klasse `Dateilogger` mit den Methoden:
 Person B: Schreibt die Tests für diese Klasse, ohne die Implementierung zu kennen (nur die Schnittstellenbeschreibung).
 
 Dann: Tests zusammenführen, ausführen – was schlägt fehl? Warum?
+
+**Erkläre deinem Tandempartner:** Erkläre den Unterschied zwischen `setUp()`, dem eigentlichen Testcode und `tearDown()`. Warum ist die Trennung dieser drei Teile wichtig? Dein Tandempartner stellt mindestens eine Rückfrage.
 
 ---
 

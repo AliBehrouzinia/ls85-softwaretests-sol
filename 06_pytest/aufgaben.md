@@ -70,6 +70,40 @@ Im Vergleich zu unittest hat pytest:
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: pytest-Ausgabe lesen 🟢
+
+**Einstieg: Ergebnisse interpretieren**
+
+Lies folgende pytest-Ausgabe und beantworte die Fragen:
+
+```
+==================== test session starts ====================
+collected 5 items
+
+test_rechner.py::test_addieren_positiv   PASSED          [ 20%]
+test_rechner.py::test_addieren_negativ   PASSED          [ 40%]
+test_rechner.py::test_dividieren         FAILED          [ 60%]
+test_rechner.py::test_division_durch_null PASSED         [ 80%]
+test_rechner.py::test_falscher_typ       ERROR           [100%]
+
+==================== 3 passed, 1 failed, 1 error in 0.04s ====================
+```
+
+**a)** Wie viele Tests wurden ausgeführt? Wie viele waren erfolgreich?
+
+**b)** Was ist der Unterschied zwischen `FAILED` und `ERROR`?
+
+**c)** Welcher Test schlägt fehl? Was könnte der Grund sein?
+
+**d)** In welcher Datei befinden sich die Tests? Wie erkennst du das?
+
+**e)** Wie lautet der Befehl, mit dem diese Ausgabe erzeugt wurde?
+(Tipp: Was bedeutet das `-v`-Flag?)
+
+Trage deine Antworten in `06_antworten.md` ein.
+
+---
+
 ## Aufgabe 1 – Von unittest zu pytest migrieren 🟡
 
 **a)** Konvertiere zwei Testmethoden aus Baustein 05 in pytest-Testfunktionen.
@@ -209,6 +243,8 @@ Dann Code-Review im Tandem:
 - Werden alle Äquivalenzklassen aus Baustein 04 abgedeckt?
 - Wird `pytest.raises` für alle Fehlerfälle genutzt?
 - Gibt es unnötige Wiederholungen, die durch Parametrisierung beseitigt werden könnten?
+
+**Erkläre deinem Tandempartner:** Erkläre, warum `@pytest.fixture` mächtiger ist als das Anlegen eines Objekts direkt im Test. Nutze ein Beispiel aus deiner eigenen Lösung. Dein Tandempartner stellt mindestens eine Rückfrage.
 
 ---
 

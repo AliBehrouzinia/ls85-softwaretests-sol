@@ -52,6 +52,28 @@ es reicht, einen repräsentativen Wert je Klasse zu testen.
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: Äquivalenzklassen erkennen 🟢
+
+**Einstieg ohne Code:**
+
+**a)** Eine Ampel-Steuerung akzeptiert nur Ganzzahlen von 1 bis 5 als Prioritätsstufe.
+Benenne ohne viel Nachdenken: Was sind gültige, was ungültige Eingaben?
+
+**b)** Erkläre in einem Satz, was eine Äquivalenzklasse ist –
+so als würdest du es einem Mitschüler ohne IT-Kenntnis erklären.
+
+**c)** Nenne je ein Beispiel aus dem Berufsalltag für:
+- Eine gültige Äquivalenzklasse
+- Eine ungültige Äquivalenzklasse
+- Einen Grenzwert, der besonders kritisch sein könnte
+
+**d)** Warum reicht es aus, nur **einen** repräsentativen Wert pro Klasse zu testen?
+Erkläre die Grundannahme dahinter.
+
+Trage deine Antworten in `04_antworten.md` ein.
+
+---
+
 ## Aufgabe 1 – Äquivalenzklassen für ein Bestellformular 🟡
 
 Eine E-Commerce-Anwendung hat folgende Validierungsregeln für das Bestellfeld "Menge":
@@ -152,6 +174,8 @@ Erstellt unabhängig voneinander Äquivalenzklassen und Grenzwerttabellen.
 Dann vergleicht: Was hat die andere Person gefunden, was du übersehen hast?
 
 Diskutiert: Würden eure Testfälle denselben Fehler finden?
+
+**Erkläre deinem Tandempartner:** Erkläre das Prinzip der Äquivalenzklassenbildung so, als würdest du es einem Nicht-IT-Kollegen erklären müssen – ohne Fachbegriffe, nur mit einem Alltagsbeispiel. Dein Tandempartner gibt Feedback: War es verständlich?
 
 ---
 

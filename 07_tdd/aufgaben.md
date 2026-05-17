@@ -65,6 +65,34 @@ Nach diesem Baustein kannst du …
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: TDD-Zyklus einordnen 🟢
+
+**Einstieg: Den Zyklus verstehen**
+
+**a)** Bringe die folgenden Schritte in die richtige TDD-Reihenfolge:
+
+| Schritt | Aktion |
+|---------|--------|
+| A | Code refactorn: Namen verbessern, Dopplungen beseitigen |
+| B | Test ausführen → er schlägt fehl (🔴 Red) |
+| C | Test für eine neue Funktion schreiben |
+| D | Minimalen Code schreiben, bis der Test grün wird (🟢 Green) |
+| E | Alle Tests erneut ausführen → sie bleiben grün |
+
+Richtige Reihenfolge: ___
+
+**b)** Was bedeutet die „Goldene TDD-Regel"? Formuliere sie mit eigenen Worten.
+
+**c)** Warum schreibt man beim Green-Schritt bewusst „hässlichen" (minimalen) Code?
+Was passiert damit im nächsten Schritt?
+
+**d)** Was ist ein „Baby Step" im TDD-Kontext?
+Warum ist diese Vorgehensweise sinnvoll?
+
+Trage deine Antworten in `07_tdd_protokoll.md` ein.
+
+---
+
 ## Aufgabe 1 – TDD-Zyklus verstehen 🟡
 
 **Szenario:** Du sollst eine Funktion `runden_auf_naechste_fuenf(zahl)` entwickeln,
@@ -166,6 +194,8 @@ Person A schreibt einen Test → Person B implementiert minimalen Code, der grü
 Wechselt nach jedem Test die Rollen.
 
 Am Ende: Wieviele Tests habt ihr? Ist der Code gut strukturiert?
+
+**Erkläre deinem Tandempartner:** Erkläre, was die „Goldene TDD-Regel" bedeutet und warum es in der Praxis schwer ist, sie konsequent einzuhalten. Teile deine eigene Erfahrung aus dieser Übung.
 
 ---
 

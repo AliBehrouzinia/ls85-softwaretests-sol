@@ -139,6 +139,32 @@ Das Entwicklungsteam hat folgende Testmaßnahmen geplant:
 
 ---
 
+## Aufgabe 6 – Transfer: Teststrategie analysieren 🔴
+
+**Transferaufgabe:**
+
+Ein Betrieb hat folgendes Testkonzept für seine neue Zeiterfassungssoftware:
+
+> „Unsere Entwickler testen ihre Funktionen kurz durch Ausführen des Programms.
+> Sobald das System läuft, lassen wir das HR-Team damit arbeiten und
+> schauen, ob Beschwerden kommen."
+
+**a)** Analysiere kritisch: Welche Teststufen fehlen in diesem Konzept? Benenne sie mit Fachbegriff.
+
+**b)** Beschreibe die konkreten Risiken für jeden fehlenden Test.
+Was könnte im Produktivbetrieb passieren?
+
+**c)** Entwirf ein verbessertes Testkonzept nach dem V-Modell für diese Software
+mit den Modulen: `zeiterfassung.py`, `benutzerverwaltung.py`, `auswertung.py`.
+Ordne konkrete Testbeispiele jeder Teststufe zu.
+
+**d)** Begründe: Wäre ein ausschließlicher Regressionstest nach einer Änderung ausreichend?
+Warum oder warum nicht?
+
+Schreibe deine Analyse in `02_antworten.md`.
+
+---
+
 ## Tandem-Aufgabe 👥
 
 **Szenario für zwei Personen:**
@@ -151,6 +177,8 @@ Eure Aufgabe: Erstellt gemeinsam einen Überblick über alle Testmaßnahmen.
 - Zusammen: Prüft, ob alle kritischen Funktionen abgedeckt sind
 
 Haltet euer Ergebnis als Tabelle in `02_antworten.md` fest.
+
+**Erkläre deinem Tandempartner:** Warum bauen Teststufen aufeinander auf und warum kann man nicht direkt mit dem Systemtest oder Abnahmetest starten? Dein Tandempartner hält dagegen und ihr diskutiert 2–3 Minuten.
 
 ---
 

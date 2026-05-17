@@ -55,10 +55,25 @@ git push
 
 ### Schritt 4 – Pull Request erstellen
 
-1. Auf GitHub: **Compare & pull request** klicken
-2. PR-Vorlage vollständig ausfüllen (keine Frage überspringen)
-3. Lehrer als **Reviewer** hinzufügen
-4. PR bleibt offen bis zur Checkpoint-Freigabe
+#### So erstellst du einen Pull Request:
+
+**Weg A – direkt nach dem Push (einfachste Methode):**
+1. Gehe auf github.com/EUER-USERNAME/ls85-softwaretests-sol
+2. Klick auf den gelben Banner "Compare & pull request"
+   (erscheint kurz nach einem Push)
+3. PR-Vorlage ausfüllen → "Create pull request"
+
+**Weg B – falls der Banner verschwunden ist:**
+1. Gehe auf github.com/EUER-USERNAME/ls85-softwaretests-sol
+2. Klick auf "Contribute" → "Open pull request"
+3. PR-Vorlage ausfüllen → "Create pull request"
+
+**Weg C – über den Pull Requests Tab:**
+1. Klick oben auf "Pull requests"
+2. Klick auf "New pull request"
+3. Base: spajanna/ls85-softwaretests-sol · main
+4. Compare: EUER-USERNAME · main
+5. PR-Vorlage ausfüllen → "Create pull request"
 
 ---
 

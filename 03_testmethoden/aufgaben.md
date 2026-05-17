@@ -50,6 +50,31 @@ ob bestimmte Codeabschnitte durchlaufen werden. Ziel ist eine möglichst hohe **
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: Black-Box vs. White-Box 🟢
+
+**Wiederholen und verorten:**
+
+**a)** Erkläre in eigenen Worten (ohne Nachschauen):
+- Was ist der grundlegende Unterschied zwischen Black-Box- und White-Box-Test?
+- Welche Frage stellt der Tester beim Black-Box-Test?
+- Welche Frage stellt der Tester beim White-Box-Test?
+
+**b)** Ordne die folgenden Situationen zu (Black-Box oder White-Box):
+
+| Situation | Methode |
+|-----------|---------|
+| Ein Kunde testet, ob er sich einloggen kann | |
+| Ein Entwickler prüft, ob alle if-Zweige durchlaufen werden | |
+| Ein Tester gibt verschiedene Passwörter ein und schaut, was passiert | |
+| Ein Entwickler misst die Testabdeckung (Coverage) | |
+| Ein externes Testteam prüft das System gegen die Spezifikation | |
+
+**c)** Erkläre in einem Satz, warum es sinnvoll ist, beide Methoden zu kombinieren.
+
+Trage deine Antworten in `03_antworten.md` ein.
+
+---
+
 ## Aufgabe 1 – Black-Box-Test: Benutzerauthentifizierung 🟡
 
 In `code/starter.py` ist eine Funktion `authentifiziere_benutzer()` implementiert.
@@ -151,6 +176,8 @@ Dann tauscht ihr:
 Person B liest den Code und prüft mit White-Box-Methode, welche Testfälle fehlen.
 
 Diskutiert: Was hat die Black-Box-Perspektive übersehen? Was hat die White-Box-Analyse ergänzt?
+
+**Erkläre deinem Tandempartner:** Wähle einen konkreten Fall aus deinem Berufsalltag und erkläre, wann du Black-Box- und wann White-Box-Testing einsetzen würdest – und warum. Dein Tandempartner nennt anschließend eine Ergänzung oder ein Gegenbeispiel.
 
 ---
 

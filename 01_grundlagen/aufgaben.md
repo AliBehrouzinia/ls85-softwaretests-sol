@@ -142,9 +142,31 @@ Schreibe deine Antworten in `01_antworten.md`.
 
 ---
 
+## Aufgabe 5 – Transfer: Testen bewerten und empfehlen 🔴
+
+**Transferaufgabe:**
+
+Du arbeitest als Fachinformatiker/in in einem Betrieb. Dein Teamleiter sagt:
+*„Wir testen schon seit Jahren nicht – bisher ist immer alles gut gegangen.
+Erkläre mir, warum wir damit anfangen sollen, und was genau wir testen müssen."*
+
+**a)** Formuliere eine überzeugende Argumentation (5–8 Sätze) für systematisches Testen.
+Nutze mindestens drei der sieben Grundprinzipien und ein reales Beispiel
+(Ariane-5, Therac-25, Y2K oder ein eigenes Beispiel aus dem Berufsalltag).
+
+**b)** Dein Betrieb entwickelt eine neue Funktion `berechne_urlaubstage(eintrittsdatum, arbeitstage_pro_woche)`.
+- Identifiziere einen möglichen Fehler (Error), Defekt (Defect) und ein Versagen (Failure) für diese Funktion.
+- Beschreibe die Konsequenzen eines unentdeckten Defekts in einem Lohnabrechnungssystem.
+
+**c)** Bewerte: Ist Grundprinzip 7 ("Keine Fehler = Gutes System") für diesen Fall relevant? Begründe.
+
+Schreibe deine Antworten in `01_antworten.md`.
+
+---
+
 ## Tandem-Aufgabe 👥
 
-**Erkläre deinem Lernpartner:**
+**Erkläre deinem Tandempartner:**
 
 > "Stell dir vor, du bist frisch im Betrieb und musst einem Azubi aus einem anderen Beruf erklären, was der Unterschied zwischen einem Bug und einem Fehler ist. Du hast nur 2 Minuten und ein konkretes Beispiel aus dem Alltag."
 

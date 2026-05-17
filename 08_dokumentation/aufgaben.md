@@ -58,6 +58,33 @@ dass du getestet hast und was dabei herausgekommen ist.
 
 ---
 
+## Aufgabe 0 – Grundbegriffe: Testdokumentation einordnen 🟢
+
+**Einstieg ohne Code:**
+
+**a)** Ordne die folgenden Aussagen dem richtigen Dokument zu
+(Testplan / Testprotokoll / Testbericht):
+
+| Aussage | Dokument |
+|---------|----------|
+| „Wir werden alle Module mit pytest testen." | |
+| „TC-007 ist fehlgeschlagen: Bestand wurde auf -5 gesetzt." | |
+| „8 von 10 Tests bestanden, 1 Fehler offen." | |
+| „Abnahmekriterium: Coverage > 80 %." | |
+| „Empfehlung: System ist abnahmebereit." | |
+
+**b)** Wann wird jedes Dokument erstellt? Ordne zu:
+- Vor dem Testen
+- Während des Testens
+- Nach dem Testen
+
+**c)** Erkläre in 2 Sätzen: Warum reicht es nicht aus, Tests einfach auszuführen –
+ohne sie zu dokumentieren?
+
+Trage deine Antworten in `08_antworten.md` ein.
+
+---
+
 ## Aufgabe 1 – Testfall-Dokumentation 🟡
 
 Ein Testfall braucht immer diese Bestandteile:
@@ -190,6 +217,8 @@ Dann tauscht ihr und reviewed gegenseitig:
 - Würde der Auftraggeber die Abnahme erteilen?
 
 Haltet Feedback schriftlich fest.
+
+**Erkläre deinem Tandempartner:** Erkläre den Unterschied zwischen Testplan, Testprotokoll und Testbericht – und warum alle drei Dokumente für einen Auftraggeber wichtig sind. Dein Tandempartner prüft, ob alle wesentlichen Punkte korrekt erklärt wurden.
 
 ---
 
