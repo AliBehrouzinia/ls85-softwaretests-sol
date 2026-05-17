@@ -12,7 +12,8 @@
 > **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
 
 Teste dein Vorwissen mit dem Forms-Quiz:  
-👉 [📋 Forms-Quiz Baustein 07: TDD](https://forms.office.com/e/DA4KdSKMba)
+👉 <a href="https://forms.office.com/e/DA4KdSKMba" target="_blank">
+📋 Forms-Quiz Baustein 07: TDD</a>
 
 > ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
 

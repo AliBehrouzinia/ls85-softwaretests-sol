@@ -91,6 +91,28 @@ KI-Tools (ChatGPT, GitHub Copilot, Claude, …) sind in diesem Kurs **erlaubt** 
 
 ---
 
+## ⚙️ VS Code Einrichtung
+
+### GitHub Copilot deaktivieren
+Falls in VS Code automatisch Code-Vorschläge erscheinen,
+ist GitHub Copilot aktiv. Für diesen Kurs gilt:
+
+**Copilot erst ab Stufe 4 des Stuck Protocols erlaubt!**
+
+So deaktivierst du Copilot temporär:
+1. `Strg + Shift + P` → `"Disable Copilot"` eingeben → Enter
+2. Oder: Unten rechts in VS Code auf das Copilot-Symbol klicken →
+   "Disable Completions"
+
+So aktivierst du Copilot wieder:
+1. `Strg + Shift + P` → `"Enable Copilot"` eingeben → Enter
+
+> **Warum?** Wenn Copilot automatisch Lösungen vorschlägt,
+> lernst du nicht wirklich – in der IHK-Prüfung gibt es
+> keine KI-Unterstützung!
+
+---
+
 ## 📁 Kursstruktur
 
 | Baustein | Thema | Niveau | Lernziel |

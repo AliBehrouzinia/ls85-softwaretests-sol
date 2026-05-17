@@ -1,4 +1,4 @@
-"""
+﻿"""
 Baustein 01 – Grundlagen der Softwaretests
 Startvorlage – bearbeite diese Datei für deine Aufgaben.
 """
@@ -44,11 +44,8 @@ def berechne_rabatt_korrigiert(preis: float, prozent: float) -> float:
 
 # Manuelle Tests (werden in Baustein 05 durch echte Unit-Tests ersetzt)
 if __name__ == "__main__":
-    # TODO: Ergänze print()-Ausgaben, um deine korrigierte Funktion zu testen
-    # Erwartete Ergebnisse:
-    #   berechne_rabatt_korrigiert(100.0, 20) -> 80.0
-    #   berechne_rabatt_korrigiert(200.0, 10) -> 180.0
-    #   berechne_rabatt_korrigiert(50.0, 0)   -> 50.0
+    # TODO: Ergänze mindestens 3 eigene print()-Tests für berechne_rabatt_korrigiert().
+    # Überlege selbst: Was sind sinnvolle Eingaben? Was erwartest du als Ergebnis?
 
     print("=== Test: berechne_rabatt (fehlerhaft) ===")
     print(berechne_rabatt(100.0, 20))  # Falsche Ausgabe erwartet

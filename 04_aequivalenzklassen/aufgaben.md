@@ -11,7 +11,8 @@
 > **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
 
 Teste dein Vorwissen mit dem Forms-Quiz:  
-👉 [📋 Forms-Quiz Baustein 04: Äquivalenzklassen](https://forms.office.com/Pages/ResponsePage.aspx?id=AVtDSgxpSk2SjJ-w6Dswu9p-7diy21FJmEKm_woHizhURTVaWUNOQjA1WERLUDRMTVdVTElEUkMwTS4u)
+👉 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=AVtDSgxpSk2SjJ-w6Dswu9p-7diy21FJmEKm_woHizhURTVaWUNOQjA1WERLUDRMTVdVTElEUkMwTS4u" target="_blank">
+📋 Forms-Quiz Baustein 04: Äquivalenzklassen</a>
 
 > ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
 

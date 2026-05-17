@@ -57,6 +57,20 @@ aufgrund der unendlichen Zahl möglicher Eingaben praktisch unmöglich.
 
 ---
 
+### Die 7 Grundprinzipien des Testens (ISTQB)
+
+| # | Prinzip | Bedeutung |
+|---|---------|-----------|
+| 1 | **Testen zeigt die Anwesenheit von Fehlern** | Tests können beweisen dass Fehler vorhanden sind – aber nie dass keine vorhanden sind |
+| 2 | **Vollständiges Testen ist nicht möglich** | Alle Eingaben und Pfade zu testen wäre unendlich aufwändig – deshalb priorisieren wir |
+| 3 | **Frühzeitiges Testen spart Kosten** | Ein Fehler der früh gefunden wird ist 10× billiger zu beheben als einer der spät gefunden wird |
+| 4 | **Fehler häufen sich** | 80% der Fehler stecken in 20% des Codes – dort zuerst testen! |
+| 5 | **Pestizid-Paradoxon** | Immer dieselben Tests finden irgendwann keine neuen Fehler mehr – Tests müssen aktualisiert werden |
+| 6 | **Testen ist kontextabhängig** | Eine Steuerungssoftware für Flugzeuge braucht andere Tests als eine App |
+| 7 | **Trugschluss: keine Fehler = gute Software** | Fehlerfreier Code der die Anforderungen nicht erfüllt ist trotzdem wertlos |
+
+---
+
 ## Das V-Modell
 
 Das V-Modell ordnet jeder Entwicklungsphase eine korrespondierende Testphase gegenüber:
@@ -138,8 +152,10 @@ def berechne_mehrwertsteuer(netto_preis: float) -> float:
 ---
 
 ### 🎮 Lernkarten & Wiederholung
-- 📦 [Alle Lernkarten LS 8.5 – Quizlet Ordner](https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt)
-- 🃏 [Quizlet – Baustein 01: Grundlagen](https://quizlet.com/de/karteikarten/01-grundlagen-softwaretests-1179872668?i=20ii9u&x=1jqt)
+- <a href="https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt" target="_blank">
+📦 Alle Lernkarten LS 8.5 – Quizlet Ordner</a>
+- <a href="https://quizlet.com/de/karteikarten/01-grundlagen-softwaretests-1179872668?i=20ii9u&x=1jqt" target="_blank">
+🃏 Quizlet – Baustein 01: Grundlagen</a>
 
 > Nutze die Lernkarten zur Wiederholung nach dem Baustein – 
 > ideal für Spaced Repetition und IHK-Vorbereitung!
@@ -155,4 +171,4 @@ die richtige Wahl ist.
 
 ---
 
-*Zurück zu den [Aufgaben](aufgaben.md) · Bei Problemen → [Stuck Protocol](../stuck_protocol.md)*
+*[➡️ Weiter zu aufgaben.md](aufgaben.md) · Bei Problemen → [Stuck Protocol](../stuck_protocol.md)*

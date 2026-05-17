@@ -116,8 +116,10 @@ Das CSV-Protokoll öffnet sich direkt in Excel und ist für Auftraggeber ohne Pr
 ---
 
 ### 🎮 Lernkarten & Wiederholung
-- 📦 [Alle Lernkarten LS 8.5 – Quizlet Ordner](https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt)
-- 🃏 [Quizlet – Baustein 08: Testdokumentation](https://quizlet.com/de/karteikarten/08-testdokumentation-1179997620?i=20ii9u&x=1jqt)
+- <a href="https://quizlet.com/user/A__J_35/folders/ls-85-softwaretests?i=20ii9u&x=1xqt" target="_blank">
+📦 Alle Lernkarten LS 8.5 – Quizlet Ordner</a>
+- <a href="https://quizlet.com/de/karteikarten/08-testdokumentation-1179997620?i=20ii9u&x=1jqt" target="_blank">
+🃏 Quizlet – Baustein 08: Testdokumentation</a>
 
 > Nutze die Lernkarten zur Wiederholung nach dem Baustein –
 > ideal für Spaced Repetition und IHK-Vorbereitung!
@@ -134,4 +136,4 @@ Du kennst jetzt die Grundlagen des Softwaretestens – von Begriffen und Grundpr
 
 ---
 
-*Zurück zu den [Aufgaben](aufgaben.md) · Bei Problemen → [Stuck Protocol](../stuck_protocol.md)*
+*[➡️ Weiter zu aufgaben.md](aufgaben.md) · Bei Problemen → [Stuck Protocol](../stuck_protocol.md)*

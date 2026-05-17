@@ -11,7 +11,8 @@
 > **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
 
 Teste dein Vorwissen mit dem Forms-Quiz:  
-👉 [📋 Forms-Quiz Baustein 01: Grundlagen Softwaretests](https://forms.office.com/Pages/ResponsePage.aspx?id=AVtDSgxpSk2SjJ-w6Dswu9p-7diy21FJmEKm_woHizhUQTNENlJZR1QyMjNKUzQwOThMU1RJNkxTMS4u)
+👉 <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=AVtDSgxpSk2SjJ-w6Dswu9p-7diy21FJmEKm_woHizhUQTNENlJZR1QyMjNKUzQwOThMU1RJNkxTMS4u" target="_blank">
+📋 Forms-Quiz Baustein 01: Grundlagen Softwaretests</a>
 
 > ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
 
@@ -63,11 +64,29 @@ Der Code hat bewusst einen Fehler eingebaut.
 
 Schreibe deine Antworten als Kommentare in `starter.py`.
 
-**b)** Korrigiere den Fehler und füge einen `print()`-Test hinzu, der zeigt, dass die Funktion jetzt korrekt arbeitet.
+**b)** Korrigiere den Fehler in `starter.py`.
+
+Überprüfe deine Lösung mit mindestens 3 eigenen Testfällen.
+Überlege dir selbst: Was sind sinnvolle Eingaben?
+Was erwartest du als Ergebnis?
 
 ---
 
 ## Aufgabe 2 – Statisch vs. dynamisch 🟢
+
+**Hintergrundwissen für diese Aufgabe:**
+
+Testverfahren werden in zwei Kategorien eingeteilt:
+
+**Statische Testverfahren** – der Code wird NICHT ausgeführt:
+- Review, Inspektion, Walkthrough
+- Statische Analyse (z.B. Linter, Code-Checker)
+- Ziel: Fehler im Code oder Dokument durch Lesen/Prüfen finden
+
+**Dynamische Testverfahren** – der Code WIRD ausgeführt:
+- Unit-Tests, Integrationstests, Systemtests
+- Manuelle Tests, automatisierte Tests
+- Ziel: Fehler durch tatsächliches Ausführen des Programms finden
 
 **a)** Ordne die folgenden Maßnahmen den Kategorien zu:
 

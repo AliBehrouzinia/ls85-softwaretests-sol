@@ -11,7 +11,8 @@
 > **Lies zuerst [`theorie.md`](theorie.md) vollständig durch.**
 
 Teste dein Vorwissen mit dem Forms-Quiz:  
-👉 [📋 Forms-Quiz Baustein 02: Testarten](https://forms.office.com/e/buC7L4PjPh)
+👉 <a href="https://forms.office.com/e/buC7L4PjPh" target="_blank">
+📋 Forms-Quiz Baustein 02: Testarten</a>
 
 > ⚠️ **Hinweis:** Bearbeite die Aufgaben erst NACH dem Theorieteil.
 
