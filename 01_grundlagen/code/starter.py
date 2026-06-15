@@ -29,7 +29,7 @@ def berechne_rabatt(preis: float, prozent: float) -> float:
 # Zeile 19
 
 # Failure (was der Benutzer bemerken würde):
-# eine grossere Anzahl rauskommt. Mehr als der Preis.
+# eine ungueltige und minuse Anzahl rauskommt. 
 
 
 # Aufgabe 1b): Korrigiere die Funktion unten und füge print()-Tests hinzu.
@@ -61,15 +61,17 @@ if __name__ == "__main__":
 #
 # | Maßnahme                            | Statisch | Dynamisch |
 # |-------------------------------------|----------|-----------|
-# | Code Review durch einen Kollegen    | TODO     | TODO      |
-# | Programm mit Testdaten ausführen    | TODO     | TODO      |
-# | Syntaxprüfung durch den Editor      | TODO     | TODO      |
-# | Walkthroughs im Team                | TODO     | TODO      |
-# | Unit-Tests laufen lassen            | TODO     | TODO      |
-# | Checklisten für Codestruktur        | TODO     | TODO      |
+# | Code Review durch einen Kollegen    | *        |           |
+# | Programm mit Testdaten ausführen    |          | *         |
+# | Syntaxprüfung durch den Editor      | *        |           |
+# | Walkthroughs im Team                | *        |           |
+# | Unit-Tests laufen lassen            |          | *         |
+# | Checklisten für Codestruktur        | *        |           |
 #
 # Warum reicht statisches Testen allein nicht aus?
-# TODO: Deine Erklärung hier (2 Sätze)
+# manualle Code Lesen und Testen koennte auch fehlahaft sein. Ausserdem 
+# nach jeder Aenderung im Code muss man alle betroffene Code noch mal Ueberpruefen. 
+# Ob man eine standarade Massnahme behalten kann, ist eine Frage. 
 
 
 # ============================================================
