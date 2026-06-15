@@ -20,7 +20,7 @@ Teste dein Vorwissen mit dem Forms-Quiz:
 
 ## Selbsteinschätzung – Vorher
 
-- [ ] 🟢 Ich kenne die verschiedenen Testarten bereits
+- [*] 🟢 Ich kenne die verschiedenen Testarten bereits
 - [ ] 🟡 Ich kenne manche Begriffe, aber nicht alle
 - [ ] 🔴 Das Thema ist mir neu
 
@@ -55,10 +55,10 @@ Lies die Beschreibungen und ordne sie den Teststufen zu.
 
 | Beschreibung | Teststufe |
 |-------------|-----------|
-| Testet einzelne Funktionen oder Methoden isoliert | |
-| Prüft das Zusammenspiel mehrerer Module | |
-| Testet das gesamte System gegen die Anforderungen | |
-| Der Auftraggeber prüft, ob seine Anforderungen erfüllt sind | |
+| Testet einzelne Funktionen oder Methoden isoliert | Unit-Test |
+| Prüft das Zusammenspiel mehrerer Module | Integrationstest |
+| Testet das gesamte System gegen die Anforderungen | Systemtest |
+| Der Auftraggeber prüft, ob seine Anforderungen erfüllt sind | Abnahmetest |
 
 **Teststufen:** Unit-Test · Integrationstest · Systemtest · Abnahmetest (User Acceptance Test)
 

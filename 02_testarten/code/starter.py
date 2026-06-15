@@ -77,9 +77,9 @@ if __name__ == "__main__":
 # Aufgabe 1 – Tabelle Teststufen (als Kommentar)
 # ============================================================
 
-# | Beschreibung                                           | Teststufe |
-# |--------------------------------------------------------|-----------|
-# | Testet einzelne Funktionen oder Methoden isoliert      | TODO      |
-# | Prüft das Zusammenspiel mehrerer Module                | TODO      |
-# | Testet das gesamte System gegen die Anforderungen      | TODO      |
-# | Auftraggeber prüft, ob seine Anforderungen erfüllt sind| TODO      |
+# | Beschreibung                                                | Teststufe         |
+# |-------------------------------------------------------------|-------------------|
+# | Testet einzelne Funktionen oder Methoden isoliert           | Unit-Test         |
+# | Prüft das Zusammenspiel mehrerer Module                     | Integrationstest  |
+# | Testet das gesamte System gegen die Anforderungen           | Systemtest        |
+# | Der Auftraggeber prüft, ob seine Anforderungen erfüllt sind | Abnahmetest       |
