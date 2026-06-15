@@ -79,12 +79,23 @@ if __name__ == "__main__":
 # ============================================================
 
 # Prinzip 2 – Vollständiges Testen ist unmöglich:
+# Man kann in der Praxis nicht jede mögliche Eingabe, 
+# jeden Klickweg und jede Situation testen, weil es zu viele Kombinationen gibt.
 # Beispiel aus dem Berufsalltag:
-# TODO: Deine Antwort hier
+# Bei einer Webanwendung mit einem Login-Formular könnte man theoretisch unendlich viele Kombinationen testen: richtige E-Mail, falsche E-Mail, leeres Passwort, Sonderzeichen, sehr lange Eingaben, verschiedene Browser, verschiedene Geräte usw.
+# Deshalb testet man gezielt wichtige und riskante Fälle, zum Beispiel gültiger Login, falsches Passwort, gesperrter Benutzer und leere Pflichtfelder.
 
-# Prinzip 4 – Defect Clustering:
+# Prinzip 4: Fehler häufen sich / Defect Clustering
+# Fehler treten oft nicht gleichmäßig im ganzen System auf, sondern sammeln sich in bestimmten Bereichen oder Modulen.
 # Beispiel aus dem Berufsalltag:
-# TODO: Deine Antwort hier
+# In einem Projekt gibt es ein Modul für Rechnungen. 
+# Dort wurden schon mehrere Bugs gefunden, zum Beispiel falsche Mehrwertsteuer, falsche Rundung und Probleme beim PDF-Export. 
+# Dann ist die Wahrscheinlichkeit hoch, dass in diesem Modul noch weitere Fehler stecken. 
+# Deshalb sollte man diesen Bereich besonders gründlich testen.
 
 # Welches Prinzip überrascht dich? Warum?
-# TODO: Deine Antwort hier
+# Mich überrascht am meisten Prinzip 1: Testen zeigt die Anwesenheit von Fehlern, nicht deren Abwesenheit.
+# Der Grund ist: Man denkt oft, wenn alle Tests erfolgreich sind, dann ist die Software fehlerfrei. 
+# Eigentlich bedeutet es aber nur, dass die durchgeführten Tests keine Fehler gefunden haben. 
+# Es können trotzdem noch Fehler vorhanden sein, die durch andere Eingaben oder Situationen auftreten.
+
